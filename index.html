@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors Guide</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>How to Play Rock Paper Scissors</h1>
+            <p>A step-by-step guide to mastering the game</p>
+        </header>
+
+        <section class="steps">
+            <h2>Instructions:</h2>
+            <ol>
+                <li>Players simultaneously display one of three symbols: Rock, Paper, or Scissors.</li>
+                <li><strong>Rock</strong> beats <strong>Scissors</strong>, <strong>Scissors</strong> beats <strong>Paper</strong>, and <strong>Paper</strong> beats <strong>Rock</strong>.</li>
+                <li>The result is determined by comparing the symbols.</li>
+            </ol>
+        </section>
+
+        <section class="game">
+            <h2>Try the Game:</h2>
+            <div class="choices">
+                <button onclick="playGame('rock')">🪨 Rock</button>
+                <button onclick="playGame('paper')">📄 Paper</button>
+                <button onclick="playGame('scissors')">✂️ Scissors</button>
+            </div>
+            <div class="result">
+                <p id="user-choice"></p>
+                <p id="computer-choice"></p>
+                <p id="result-message"></p>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
